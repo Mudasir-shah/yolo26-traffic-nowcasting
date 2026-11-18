@@ -1,0 +1,166 @@
+{
+  "urban": {
+    "y_horizon": 66.8,
+    "crossings": 83,
+    "by_class": {
+      "car": 74,
+      "bus": 7,
+      "truck": 2
+    },
+    "by_direction": {
+      "out": 16,
+      "in": 67
+    },
+    "ttl_mae_s": [
+      {
+        "lead_s": "0-1",
+        "n": 991,
+        "linear": 0.123,
+        "const_accel": 0.134,
+        "ours_inverse_depth": 0.081
+      },
+      {
+        "lead_s": "1-2",
+        "n": 684,
+        "linear": 0.442,
+        "const_accel": 0.468,
+        "ours_inverse_depth": 0.201
+      },
+      {
+        "lead_s": "2-3",
+        "n": 501,
+        "linear": 0.997,
+        "const_accel": 0.829,
+        "ours_inverse_depth": 0.306
+      },
+      {
+        "lead_s": "3-6",
+        "n": 282,
+        "linear": 1.281,
+        "const_accel": 1.245,
+        "ours_inverse_depth": 0.543
+      }
+    ],
+    "ttl_mae_all_s": {
+      "n": 2459,
+      "linear": 0.523,
+      "const_accel": 0.498,
+      "ours_inverse_depth": 0.215
+    },
+    "eval_from_s": 32.4,
+    "conformal": {
+      "target": 0.8,
+      "coverage": 0.741,
+      "mean_width_s": 2.673,
+      "n": 4075
+    },
+    "nowcast": {
+      "horizon_s": 3.0,
+      "mae_ours": 0.915,
+      "mae_persistence": 1.313,
+      "interval_coverage": 0.755,
+      "n_frames": 1140
+    }
+  },
+  "freeway": {
+    "y_horizon": -76.1,
+    "crossings": 86,
+    "by_class": {
+      "car": 84,
+      "truck": 2
+    },
+    "by_direction": {
+      "in": 33,
+      "out": 53
+    },
+    "ttl_mae_s": [
+      {
+        "lead_s": "0-1",
+        "n": 614,
+        "linear": 0.374,
+        "const_accel": 0.083,
+        "ours_inverse_depth": 0.025
+      },
+      {
+        "lead_s": "1-2",
+        "n": 272,
+        "linear": 1.672,
+        "const_accel": 0.514,
+        "ours_inverse_depth": 0.041
+      }
+    ],
+    "ttl_mae_all_s": {
+      "n": 886,
+      "linear": 0.772,
+      "const_accel": 0.216,
+      "ours_inverse_depth": 0.03
+    },
+    "eval_from_s": 13.1,
+    "conformal": {
+      "target": 0.8,
+      "coverage": 0.797,
+      "mean_width_s": 0.075,
+      "n": 1394
+    },
+    "nowcast": {
+      "horizon_s": 3.0,
+      "mae_ours": 1.991,
+      "mae_persistence": 2.673,
+      "interval_coverage": 0.675,
+      "n_frames": 502
+    }
+  },
+  "residential": {
+    "y_horizon": 86.1,
+    "crossings": 8,
+    "by_class": {
+      "car": 8
+    },
+    "by_direction": {
+      "in": 8
+    },
+    "ttl_mae_s": [
+      {
+        "lead_s": "0-1",
+        "n": 72,
+        "linear": 0.526,
+        "const_accel": 0.091,
+        "ours_inverse_depth": 0.034
+      },
+      {
+        "lead_s": "1-2",
+        "n": 66,
+        "linear": 2.229,
+        "const_accel": 0.831,
+        "ours_inverse_depth": 0.2
+      },
+      {
+        "lead_s": "2-3",
+        "n": 14,
+        "linear": 3.457,
+        "const_accel": 1.062,
+        "ours_inverse_depth": 0.641
+      }
+    ],
+    "ttl_mae_all_s": {
+      "n": 152,
+      "linear": 1.535,
+      "const_accel": 0.501,
+      "ours_inverse_depth": 0.162
+    },
+    "eval_from_s": 12.0,
+    "conformal": {
+      "target": 0.8,
+      "coverage": 0.754,
+      "mean_width_s": 0.848,
+      "n": 268
+    },
+    "nowcast": {
+      "horizon_s": 3.0,
+      "mae_ours": 0.219,
+      "mae_persistence": 0.567,
+      "interval_coverage": 0.969,
+      "n_frames": 360
+    }
+  }
+}

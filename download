@@ -1,0 +1,10 @@
+data/
+datasets/
+runs/
+train/runs/
+parts/
+*.pt
+*.mp4
+*.avi
+results/cache_*.pkl
+__pycache__/

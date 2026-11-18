@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Traffic flow nowcasting with Ultralytics YOLO26"
+authors:
+  - family-names: "Shah"
+    given-names: "Sayyed Ajmal"
+repository-code: "https://github.com/Mudasir-shah/yolo26-traffic-nowcasting"
+license: MIT
+date-released: 2026-11-19
+keywords: [computer vision, YOLO26, object tracking, traffic flow, conformal prediction]

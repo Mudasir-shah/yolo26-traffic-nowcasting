@@ -1,0 +1,38 @@
+[
+  {
+    "line_y": 110,
+    "lead_median_s": 1.63,
+    "horizon_s": 3.0,
+    "mae_ours": 2.419,
+    "mae_persistence": 3.068,
+    "interval_coverage": 0.697,
+    "n_frames": 502
+  },
+  {
+    "line_y": 150,
+    "lead_median_s": 1.33,
+    "horizon_s": 3.0,
+    "mae_ours": 1.991,
+    "mae_persistence": 2.673,
+    "interval_coverage": 0.675,
+    "n_frames": 502
+  },
+  {
+    "line_y": 190,
+    "lead_median_s": 1.03,
+    "horizon_s": 3.0,
+    "mae_ours": 2.32,
+    "mae_persistence": 2.048,
+    "interval_coverage": 0.649,
+    "n_frames": 502
+  },
+  {
+    "line_y": 250,
+    "lead_median_s": 0.73,
+    "horizon_s": 3.0,
+    "mae_ours": 2.437,
+    "mae_persistence": 2.03,
+    "interval_coverage": 0.655,
+    "n_frames": 502
+  }
+]
